@@ -1,4 +1,4 @@
-##React + Bootstrap Task — Overview
+**React + Bootstrap Task — Overview
 
 This project is a simple UI built with React and Bootstrap, focusing on clean code, reusable components, and fully responsive design.
 
