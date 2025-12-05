@@ -1,8 +1,8 @@
-**React + Bootstrap Task — Overview
+# React + Bootstrap Task — Overview
 
 This project is a simple UI built with React and Bootstrap, focusing on clean code, reusable components, and fully responsive design.
 
-#Key Concepts Used
+## Key Concepts Used
 
 Components: Components like Navbar, Pricing, Contact, FormContact.
 
@@ -16,10 +16,10 @@ Flexbox with Bootstrap: Utility classes such as (d-flex, align-items, justify-co
 
 Mapping Data: Pricing plans and features were stored in arrays and rendered using .map() to make the structure easy to update.
 
-#Technologies
+## Technologies
 
 React, Bootstrap, JS, CSS, react-icons
 
-#What I Learned
+## What I Learned
 
 Building reusable React components, passing props, creating responsive layouts with Bootstrap, organizing data, and structuring UI elements cleanly.
