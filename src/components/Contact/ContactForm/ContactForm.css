@@ -1,0 +1,24 @@
+.contact-form {
+  flex: 1;
+  padding: 30px 20px;
+}
+form input,
+form textarea {
+  width: 100% !important;
+  border: none;
+  border-bottom: 1px solid #d1d0d0;
+  padding: 15px;
+  outline: none;
+}
+form textarea {
+  height: 100px;
+  resize: none;
+}
+form .contact-btn {
+  background-color: #fb8516;
+  color: white;
+}
+form .contact-btn:hover {
+  background-color: #d87111 !important;
+  color: white !important;
+}

@@ -1,7 +1,15 @@
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/navbar/Navbar";
+import Pricing from "./components/pricing/Pricing";
+
 function App() {
   return (
     <>
-      <h1>hello</h1>
+      <Navbar />
+      <Pricing />
+      <Contact />
+      <Footer />
     </>
   );
 }

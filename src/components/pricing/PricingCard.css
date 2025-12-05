@@ -1,0 +1,43 @@
+.pricing-card {
+  border: none !important;
+  border-radius: 25px !important;
+  padding: 30px;
+}
+@media (max-width: 768px) {
+  .pricing-card {
+    padding: 15px;
+  }
+}
+.pricing-card .card-body {
+  padding: 0 !important;
+}
+.pricing-card .card-body .price-plan {
+  font-weight: 700 !important;
+  margin: 19px 0 0 !important;
+  color: #fb8516 !important;
+}
+.pricing-card .card-body .price-plan .limit {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.pricing-card .card-body .card-text {
+  color: #808080;
+  font-size: 0.9375rem;
+  font-style: italic;
+  margin: 9px 0 0;
+}
+.pricing-card .card-body .card-btn {
+  color: #fff !important;
+  background-color: #4248bd !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border-radius: 100px !important;
+  letter-spacing: 1px !important;
+  margin: 9px auto 0 0 !important;
+  padding: 10px 40px !important;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-card .card-body .card-btn:hover {
+  background-color: #fb8516 !important;
+}

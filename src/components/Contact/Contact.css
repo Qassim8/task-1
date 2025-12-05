@@ -1,0 +1,9 @@
+.contact-content {
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .contact-content {
+    flex-direction: column !important;
+    align-items: start;
+  }
+}

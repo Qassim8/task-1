@@ -1,0 +1,44 @@
+.pricing-title {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    to right,
+    rgba(66, 72, 189, 1),
+    rgba(43, 108, 212, 1)
+  );
+  background-size: cover;
+}
+.pricing-title h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 3.75rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  margin: 60px auto;
+}
+@media (max-width: 768px) {
+  .pricing-title h1 {
+    font-size: 2.5rem;
+  }
+}
+.pricing-plan-title h2 {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .pricing-plan-title h2 {
+    font-size: 1.875rem;
+  }
+}
+.pricing-plan-title p {
+  font-size: 1.125rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}

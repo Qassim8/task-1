@@ -1,0 +1,9 @@
+.info {
+  padding: 30px;
+}
+.info .info-item {
+  border-bottom: 1px solid #d1d0d0;
+}
+.info .info-item .email {
+  color: #fb8516;
+}

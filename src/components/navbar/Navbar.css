@@ -1,0 +1,18 @@
+.logo {
+  width: 195px;
+  height: 45px;
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 130px;
+    height: 30px;
+  }
+}
+.navbar .navbar-nav {
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-item {
+  padding: 10px 0;
+}
