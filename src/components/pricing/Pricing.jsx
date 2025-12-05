@@ -1,5 +1,5 @@
 import "./Pricing.css";
-import PricingCard from "./PricingCard";
+import PricingCard from "./PricingCard/PricingCard";
 
 function Pricing() {
   const pricingPlanInfo = [

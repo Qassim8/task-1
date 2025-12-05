@@ -2,22 +2,6 @@ import { FaCheck } from "react-icons/fa";
 import "./PricingCard.css";
 
 function PricingCard({ data }) {
-  let el = {
-    title: "Starter",
-    price: 2.99,
-    limit: "month",
-    desc: "For a 1-year term. Pay $35.88 today, then $107.88 on renewal",
-    featuers: [
-      "1 Website",
-      "30GB Disk Space",
-      "Free Domain Name included*",
-      "10 E-Mail Accounts",
-      "WordPress Pre-installed",
-      "Performance Plugins Pre-installed",
-      "Powered by Turbo",
-      "30 days money-back guarantee**",
-    ],
-  };
   return (
     <div className="card pricing-card">
       <div className="card-body">
@@ -26,7 +10,7 @@ function PricingCard({ data }) {
           ${data.price}
           <span className="limit flex-end">/{data.limit}</span>
         </h3>
-        <div className="card-text" style={{ fontSize: "17px" }}>
+        <div className="card-text" style={{ fontSize: "18px" }}>
           {data.desc}
         </div>
         <button className="btn card-btn">BUY NOW</button>
